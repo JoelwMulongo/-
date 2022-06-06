@@ -1,0 +1,49 @@
+body {
+
+  margin: 0;
+
+  font-family: "Poppins", sans-serif;
+
+  transition: all 0.3s;
+
+  color: #2c405e;
+
+}
+
+body.light {
+
+  background-color: #ffff;
+
+  color: #2c405e;
+
+}
+
+body.dark {
+background-color: #222222;
+
+  color: #f5f5f5;
+
+}
+.toggle-bar {
+
+  padding: 5px;
+
+  width: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+  align-items: flex-end;
+
+  justify-content: flex-end;
+
+}
+
+.toggle-bar > button {
+
+  margin: 5px;
+
+}
